@@ -100,21 +100,105 @@ header{
 }
 
 .myRoleIcons{
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    display: flex;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding-right: 19%;
 }
 
-.research{
+.researchImg{
     display: grid;
     grid-template-rows: 1/2;
     grid-template-columns: 1/2;
+    justify-content: center;
 }
 
-.ideation{
+.researchText{
+    display: grid;
+    grid-template-rows: 2/3;
+    grid-template-columns: 1/2;
+    justify-content: center;
+}
+
+
+.ideationImg{
     display: grid;
     grid-template-rows: 1/2;
     grid-template-columns: 2/3;
+    justify-content: center;
 }
+
+.ideationText{
+    display: grid;
+    grid-template-rows: 2/3;
+    grid-template-columns: 2/3;
+    justify-content: center;
+}
+
+.userPersonaImg{
+    display: grid;
+    grid-template-rows: 1/2;
+    grid-template-columns: 3/4;
+    justify-content: center;
+}
+
+.userPersonaText{
+    display: grid;
+    grid-template-rows: 2/3;
+    grid-template-columns: 3/4;
+    justify-content: center;
+}
+
+.userFlowImg{
+    display: grid;
+    grid-template-rows: 1/2;
+    grid-template-columns: 4/5;
+    justify-content: center;
+}
+
+.userFlowText{
+    display: grid;
+    grid-template-rows: 2/3;
+    grid-template-columns: 4/5;
+    justify-content: center;
+}
+
+.wireframeImg{
+    display: grid;
+    grid-template-rows: 3/4;
+    grid-template-columns: 1/2;
+    justify-content: center;
+}
+
+.wireframeText{
+    display: grid;
+    grid-template-rows: 4/5;
+    grid-template-columns: 1/2;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.research .ideation .userPersona .userFlow .wireframe .test .prototype p{
+    display: inline-block;
+}
+
+
+
+
+
 
 
 

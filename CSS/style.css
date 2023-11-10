@@ -177,23 +177,50 @@ header{
     justify-content: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .research .ideation .userPersona .userFlow .wireframe .test .prototype p{
     display: inline-block;
 }
+
+.problemStatementAndChallenges{
+    text-align: center;
+}
+
+.gridContainer3{
+    padding-left: 9%;
+    padding-right: 9%;
+    display: grid;
+    grid-gap: 100px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.puppy1{
+    padding-top: 60px;
+}
+
+.gridContainer4{
+    padding-left: 9%;
+    padding-right: 9%;
+    display: grid;
+    grid-gap: 100px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.puppy2{
+    padding-top: 60px;
+}
+
+.solution{
+    padding-top: 50px;
+}
+
+.researchData{
+    padding-left: 9%;
+    padding-right: 9%;
+    display: grid;
+    grid-gap: 100px;
+
+}
+
 
 
 

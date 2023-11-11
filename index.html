@@ -7,13 +7,30 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100&family=Young+Serif&display=swap" rel="stylesheet">
     <link href="CSS/style.css" type="text/css" rel="stylesheet">
-    
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T7V2811NK7"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-T7V2811NK7');
+    </script>
+
 <header>
-    <img src="Images/MH logo white.png" width="36px">
-    <div class="navigation">Contact</div>
-    <div class="navigation">About</div>
-    <div class="navigation">Resume</div>
-    <div class="navigation">Work</div>
+    <a href="https://rrwrq.github.io/UX_UI_HW_19/"><img src="Images/MH logo white.png" width="36px"></a>
+    <div class="navigation">
+        <div id=contactButton>Contact</div>
+    </div>
+    <div class="navigation">
+        <a href="https://rrwrq.github.io/UX_UI_HW_18.2/"><div id=aboutButton>About</div></a>
+    </div>
+    <div class="navigation">
+        <div id=resumeButton>Resume</div>
+    </div>
+    <div class="navigation">
+        <a href="https://rrwrq.github.io/UX_UI_HW_18/"><div id=workButton>Work</div></a>
+    </div>
 </header>
 
 <section>
@@ -327,7 +344,7 @@
 
 <footer>
     <div class="gridContainer">
-        <div class="footerText">But it doesn’t end here.</div>
+        <div class="footerText">But it doesn’t end here</div>
 
         <div class="footerRight">
             <div class="mailText">
@@ -368,5 +385,9 @@
     </div>
     </div>
 </footer>
+
+<script src="JS/index.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+
 
 </html>

@@ -77,10 +77,11 @@ header{
 
 .travelpaws{
     background-image: url("../Images/Cover_bg.png");
-    background-size: auto 700px;
+    background-size: auto 1000px;
     background-repeat: no-repeat;
     background-position-x: right;
     padding-top: 100px;
+    padding-bottom: 500px;
 }
 
 .cover{
@@ -88,6 +89,7 @@ header{
     padding: 30px;
     padding-left: 9%;
     max-width: 50%;
+    text-shadow: 5px 3px 5px #1F1F1F;
 }
 
 .cover h4{
@@ -98,8 +100,13 @@ header{
     margin-bottom: 15%;
 }
 
+.projectOverview{
+    margin-top: -300px;
+}
+
 .projectOverview h6{
     text-align: center;
+    text-shadow: 5px 3px 5px #1F1F1F;
 }
 
 .gridContainer2{

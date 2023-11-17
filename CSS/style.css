@@ -131,8 +131,6 @@ header{
 
 .researchText{
     width: 75px;
-    justify-content: center;
-    display: flex;
 }
 
 
@@ -142,8 +140,6 @@ header{
 
 .ideationText{
     width: 75px;
-    justify-content: center;
-    display: flex;
 }
 
 .userPersonaImg{
@@ -152,8 +148,6 @@ header{
 
 .userPersonaText{
     width: 75px;
-    justify-content: center;
-    display: flex;
 }
 
 .userFlowImg{
@@ -162,8 +156,6 @@ header{
 
 .userFlowText{
     width: 75px;
-    justify-content: center;
-    display: flex;
 }
 
 .wireframeImg{
@@ -172,12 +164,11 @@ header{
 
 .wireframeText{
     width: 75px;
-    justify-content: center;
-    display: flex;
+
 }
 
-.research .ideation1 .userPersona .userFlow1 .wireframe .test .prototype p{
-    display: inline-block;
+.research, .ideation1, .userPersona, .userFlow1, .wireframe, .test, .prototype, .uiuxDesign{
+    margin: 0 auto;
 }
 
 .problemStatementAndChallenges{
@@ -223,13 +214,19 @@ header{
     text-align: center;
 }
 
+.personaLeft{
+    padding-left: 20%;
+}
+
+.personaRight{
+    margin-left: -20px;
+}
+
 .personaLeft img{
     border-radius: 100px;
 }
 
 .gridContainer6{
-    padding-left: 9%;
-    padding-right: 9%;
     display: grid;
     grid-gap: 50px;
     grid-template-columns: 1fr 1fr;

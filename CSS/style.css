@@ -153,8 +153,8 @@ header{
     padding-right: 9%;
     margin-bottom: 100px;
     display: grid;
-    grid-gap: 10%;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 10rem;
     text-align: center;
 }
 
@@ -162,49 +162,24 @@ header{
     text-align: start;
 }
 
-.designProcess{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 .myRoleIcons{
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-gap: 5%;
+    gap: 1rem;
 }
-
-.researchText{
-    width: 75px;
-}
-
-.ideationText{
-    width: 75px;
-}
-
-.userPersonaText{
-    width: 75px;
-}
-
-.userFlowText{
-    width: 75px;
-}
-
-.wireframeText{
-    width: 75px;
-
-}
-
-.research, .ideation1, .userPersona, .userFlow1, .wireframe, .test, .prototype, .uiuxDesign{
-    margin: 0 auto;
+.designItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .toolsIcons{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-gap: 5%;
+    gap: 1rem;
 }
 
 .figmaText{
